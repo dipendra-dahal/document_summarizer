@@ -48,6 +48,7 @@ document_summarizer/
 │       └── vite.config.ts
 │
 └── README.md
+```
 
 ---
 
@@ -96,6 +97,7 @@ backend runs at :
 ```
 http://localhost:8000
 ```
+---
 ## Frontend Setup (React + Vite)
 ### 1. Navigate to frontend
 
@@ -118,7 +120,7 @@ frontend run at
 ```bash
 http://localhost:5173
 ```
-
+---
 ## API Endpoint
 
 ### POST /summarize
@@ -129,13 +131,13 @@ Field	> Type  > Required	> Description
 file	>File   >	Yes	      >PDF, TXT, or MD file  
 length>	String>	Yes	      > short / medium / long  
 focus >	String>	No	      >Summary focus area  
-
+---
 ##Notes
 *Maximum text sent to AI is limited to 12,000 characters
 *Large files are automatically truncated before summarization
 *If no Groq API key is provided, AI features are disabled
 *Backend includes retry logic with exponential backoff for API failures
-
+---
 ##Future Improvements
 *Drag and drop file upload
 *Summary download option
@@ -144,7 +146,7 @@ focus >	String>	No	      >Summary focus area
 *Summary history
 *Export summary as PDF
 *Better UI/UX improvements
-
+---
 ## Limitations of the Application
 
 1. **Limited File Format Support**  
@@ -164,3 +166,4 @@ focus >	String>	No	      >Summary focus area
 
 6. **Single Document Processing Only**  
    The system can process only one document at a time. Users cannot upload multiple files together for combined summarization.
+---
