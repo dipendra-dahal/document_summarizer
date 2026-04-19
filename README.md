@@ -167,3 +167,6 @@ focus >	String>	No	      >Summary focus area
 6. **Single Document Processing Only**  
    The system can process only one document at a time. Users cannot upload multiple files together for combined summarization.
 ---
+##AI used:
+Used: Claude AI for debugging codes and changing model from gemini to groq
+---
