@@ -144,3 +144,22 @@ focus >	String>	No	      >Summary focus area
 *Export summary as PDF
 *Better UI/UX improvements
 
+## Limitations of the Application
+
+1. **Limited File Format Support**  
+   Currently, the application only supports `.pdf`, `.txt`, and `.md` files. Other commonly used formats like `.docx`, `.pptx`, and `.xlsx` are not supported.
+
+2. **Text Length Restriction**  
+   The backend limits the maximum text sent to the AI model to 12,000 characters. Large documents are truncated, which may cause important information to be missed in the summary.
+
+3. **Dependency on Internet and API Availability**  
+   Since the summarization relies on the Groq API, the application requires a stable internet connection and API availability. If the API is down, summarization will fail.
+
+4. **No User Authentication**  
+   The application does not currently include login or user account functionality, so users cannot save their summaries or access previous uploads.
+
+5. **No Summary Export Feature**  
+   Users can view summaries on-screen, but there is no option to download or export the summary as PDF, Word, or text files.
+
+6. **Single Document Processing Only**  
+   The system can process only one document at a time. Users cannot upload multiple files together for combined summarization.
