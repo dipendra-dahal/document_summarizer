@@ -56,9 +56,64 @@ document_summarizer/
 
 ```bash
 cd backend
+```
 
-### 1. Navigate to backend
-### 1. Navigate to backend
-### 1. Navigate to backend
-### 1. Navigate to backend
-### 1. Navigate to backend
+### 2. Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+### 3. Activate Virutal environment
+Windows
+
+```bash
+.venv\scripts\activate
+```
+
+Linux/MacOS
+
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install dependencies
+
+
+
+```bash
+pip install fastapi uvicon python-multipart python-dotenv pymupdf groq
+```
+### 5. Create .env file
+
+GROQ_API_KEY=your_key_here
+
+### 6. Run backend Server
+```bash
+uvicon main:app --reload
+```
+backend runs at : 
+```
+http://localhost:8000
+```
+## Frontend Setup (React + Vite)
+### 1. Navigate to frontend
+
+```bash
+cd frontend/vite-project
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+### 3. Start development server
+Windows
+
+```bash
+npm run dev
+```
+frontend run at
+```bash
+http://localhost:5173
+```
