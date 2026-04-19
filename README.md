@@ -128,3 +128,19 @@ Field	> Type  > Required	> Description
 file	>File   >	Yes	      >PDF, TXT, or MD file  
 length>	String>	Yes	      > short / medium / long  
 focus >	String>	No	      >Summary focus area  
+
+##Notes
+*Maximum text sent to AI is limited to 12,000 characters
+*Large files are automatically truncated before summarization
+*If no Groq API key is provided, AI features are disabled
+*Backend includes retry logic with exponential backoff for API failures
+
+##Future Improvements
+*Drag and drop file upload
+*Summary download option
+*Multiple document support
+*Authentication system
+*Summary history
+*Export summary as PDF
+*Better UI/UX improvements
+
