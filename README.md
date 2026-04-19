@@ -32,6 +32,7 @@ Users can upload a file, choose summary length, and define a focus area (for exa
 
 ## Project Structure
 
+```text
 document_summarizer/
 │
 ├── backend/
