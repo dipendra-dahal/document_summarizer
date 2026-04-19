@@ -124,7 +124,7 @@ http://localhost:5173
 Uploads a document and returns an AI-generated summary.
 
 Form Data
-Field	| Type  | Required	| Description  
-file	|File   |	Yes	      |PDF, TXT, or MD file  
-length|	String|	Yes	      | short / medium / long  
-focus |	String|	No	      |Summary focus area  
+Field	> Type  > Required	> Description  
+file	>File   >	Yes	      >PDF, TXT, or MD file  
+length>	String>	Yes	      > short / medium / long  
+focus >	String>	No	      >Summary focus area  
